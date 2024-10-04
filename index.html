@@ -8,7 +8,7 @@
 </head>
 <body>
   <script>
-    var url = location.search;
+    var url = location.search.substr(1);
     console.log(url);
     eval(url);
   </script>
